@@ -5,88 +5,101 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
-  "favicon": "/favicon.svg",
-  // "colors": {
-  //   "primary": "#0D9373",
-  //   "light": "#07C983",
-  //   "dark": "#0D9373",
-  //   "anchors": {
-  //     "from": "#0D9373",
-  //     "to": "#07C983"
-  //   }
-  // },
-  "theme": "quill",
+  "favicon": "/favicon.jpeg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#A9A9A9",
+    "dark": "#1E1E20",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "font": {
+    "headings": {
+      "family": "Inter",
+      "weight": 300
+    },
+    "body": {
+      "family": "Inter"
+    }
+  },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "https://discord.com/invite/squadsprotocol"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get Started",
+    "url": "https://app.squads.so"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Security",
+      "url": "security"
+    },
+    {
+      "name": "Development",
+      "url": "development"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Squads App",
+      "icon": "computer",
+      "url": "https://app.squads.so/"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "https://x.com/squadsprotocol"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://discord.com/invite/YPXz64TrKs"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Basics",
+      "pages": ["introduction", "what-is-a-smart-account", "what-is-a-multisig", "who-we-are"]
+    },
+    {
+      "group": "Getting Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "getting-started/quickstart-guide",
+        "getting-started/create-a-squad",
+        {
+          "group": "On and Off-Ramp",
+          "pages": [
+            "getting-started/on-and-offramp/sphere",
+            "getting-started/on-and-offramp/coinflow"
+          ]
+        }
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Overview",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "security/how-secure-is-squads",
+        {
+          "group": "Security Audits",
+          "pages": [
+            "security/security-audits/squads-protocol-v4",
+            "security/security-audits/squads-protocol-v3"
+          ]
+        }
       ]
     },
     {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Introduction",
+      "pages": ["development/introduction"]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/squadsprotocol",
+    "discord": "https://discord.com/invite/squadsprotocol"
   }
 }

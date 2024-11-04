@@ -1,0 +1,59 @@
+---
+title: 'Create a Squad'
+description: 'Everything you need to know about creating your first Squad.'
+---
+
+## Creating a Squad
+
+1. Head over to the [Squads App](app.squads.so) and connect your Solana wallet by clicking the "Connect Wallet" button.
+
+The app will automatically detect the compatible Solana wallets you have installed and show them in the "Connect your wallet" pop-up. If you do not have a wallet, you can also create and use a Squads account with your email via [TipLink](https://docs.squads.so/main/navigating-your-squad/in-app-integrations/tiplink).
+
+<Warning>
+  Ledger Connect is not supported. If you're using a Ledger, connect through Phantom or Solflare
+  wallets instead. Enable Blind Signing on your Ledger device to ensure successful transaction
+  signing.
+</Warning>
+
+<img
+  title="Select wallet pop-up"
+  src="https://docs.squads.so/~gitbook/image?url=https%3A%2F%2F254049203-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FdUrslJzNhqr2JDZzXUUz%252Fuploads%252FU3APeqFjR83MhZ0XfoxP%252FScreenshot%25202024-06-25%2520at%252010.31.31%25E2%2580%25AFPM.png%3Falt%3Dmedia%26token%3D00870f3d-ff0b-4e25-b68d-2d718174aa01&width=768&dpr=4&quality=100&sign=564a108c&sv=1"
+/>
+
+2. After connecting your wallet, click on the "Create a Squad" button.
+
+3. Enter your Squad's details (can be modified later):
+
+   - Squad name
+   - Profile picture (JPEG, PNG, or GIF formats, under 3MB)
+   - Description (optional, limited to 64 characters)
+
+<img src="https://docs.squads.so/~gitbook/image?url=https%3A%2F%2F254049203-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FdUrslJzNhqr2JDZzXUUz%252Fuploads%252FHnv2S1X9QEGbet7DlFKf%252FSquad%2520details-1.png%3Falt%3Dmedia%26token%3D7f308bda-38e4-43b7-9b72-c58b02d66787&width=768&dpr=4&quality=100&sign=21510a64&sv=1" />
+
+4. Add members to your Squad with their public keys and set a confirmation threshold.
+
+<img src="https://docs.squads.so/~gitbook/image?url=https%3A%2F%2F254049203-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FdUrslJzNhqr2JDZzXUUz%252Fuploads%252FtikeOqdeT8hcOq3vSHrS%252F3%2520theshold%29.png%3Falt%3Dmedia%26token%3D75a920b5-dc60-416f-b3c6-900a5d04fbec&width=768&dpr=4&quality=100&sign=fb123771&sv=1" />
+
+The confirmation threshold determines the number of approvals required from Squad members for transaction execution. For example, a 2/3 threshold means two out of three wallets must approve a transaction for it to be executed.
+
+<Warning>
+  Avoid setting the threshold at 1/1 signatures as it creates a single point of failure. Similarly,
+  setting the threshold at maximum capacity may lead to access issues if control over one wallet is
+  lost.
+</Warning>
+
+You can add up to 10 initial members. Additional members can be added after the Squad is created, subject to multisig approval based on the set confirmation threshold. Review the information once all members are added and click "Next".
+
+<img src="https://docs.squads.so/~gitbook/image?url=https%3A%2F%2F254049203-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FdUrslJzNhqr2JDZzXUUz%252Fuploads%252F99jv57R1mIaoD5ddmr6W%252FReview%2520%28The%2520Squad%2520-%2520name%252C%2520team%2520funds%2520-%2520description%252C%2520photo%2520-%2520Squads%2520logo%29.png%3Falt%3Dmedia%26token%3Ddb07e9b4-1ea7-4580-aac6-1a70662b6cef&width=768&dpr=4&quality=100&sign=e5741144&sv=1" />
+
+5. On the final review screen, click "Confirm" to create your Squad. Once created, you can use the "Share" button in the pop-up to share the Squad URL with your team members.
+
+<Info>
+  Deploying a Squads multisig costs approximately 0.0528 SOL, depending on the number of initial
+  members. This includes a 0.05 SOL one-time platform fee, 0.001 SOL deposited into your Squads
+  account, and ~0.0018 SOL for network rent needed for account deployment.
+</Info>
+
+6. Upon creation, you'll be directed to the "Treasury" tab. For guidance on navigating your Squads dashboard, please refer to the Dashboard section.
+
+<img src="https://docs.squads.so/~gitbook/image?url=https%3A%2F%2F254049203-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FdUrslJzNhqr2JDZzXUUz%252Fuploads%252Fis6cXN22fVlIhZFWYzKi%252FTreasury%2520page%2520%28empty%2520treasury%252C%25200.03%2520dollar%2520balance%252C%25200.001%2520SOL%252C%25201%2520asset%29.png%3Falt%3Dmedia%26token%3Db0b6a438-c300-49b8-b9ae-61e8f86677f7&width=768&dpr=4&quality=100&sign=eb06609c&sv=1" />

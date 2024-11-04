@@ -1,0 +1,81 @@
+---
+title: 'Sphere'
+description: 'Learn how to on and off-ramp crypto with Sphere.'
+---
+
+## What Is Sphere?
+
+Sphere is a payments platform that bridges traditional finance and the onchain economy by streamlining the on-and off-ramping process.
+
+## How do Squads users benefit from this integration?
+
+You can now on-ramp assets to your Squads wallet and off-ramp to fiat in a secure and cost-effective way. This is enabled seamlessly via Wire, ACH, and SEPA transfers for both USD and EUR bank accounts.
+
+## On-Ramping with Sphere & Squads
+
+<Info>Before using Sphere, make sure to set up an account and connect your bank account here.</Info>
+
+To on-ramp crypto with Sphere:
+
+1. Create a new Wire, ACH, or SEPA on-ramp on Sphere.
+2. When setting up a new on-ramp, select the bank account you'd like to send fiat from, choose Solana as the destination network, paste in your Squads vault address, and then select “Use Wallet”.
+3. Next, fill out the on-ramp form and click “Initiate”—your transfer will now be processed. Note that the transfer will either be processed automatically or you'll get wire instructions to manually complete the deposit.
+
+<iframe
+  width="640"
+  height="416"
+  src="https://www.loom.com/embed/0191b8ae86334c0884e39e8e6caa6211?sid=24f2b6bb-8b95-44ba-9d6d-332798c3f704"
+  frameborder="0"
+  webkitallowfullscreen
+  mozallowfullscreen
+  allowfullscreen
+></iframe>
+
+## Off-Ramping with Sphere & Squads
+
+You can off-ramp from crypto to fiat in a single Squads transaction using [Sphere Offload](https://x.com/sphere_labs/status/1793691417480704456).
+
+1. In the “Payouts” section on Sphere, select the “Bank accounts” tab.
+2. Next, navigate to the bank account you'd like to off-ramp to and click the three dots in the “Actions” column, select “Generate wallet address” for the Solana network, and then click “Confirm”.
+3. In a couple of seconds, you should see “View wallets” in the “Linked wallets” column. Click on it. From the pop-up you'll be able to copy the Solana wallet address that is linked to your bank account—add it to your Squads contact book and use it whenever you'd like to off-ramp crypto to fiat.
+
+<iframe
+  width="640"
+  height="416"
+  src="https://www.loom.com/embed/170f437fdb14479c8e7282c42221779c?sid=4cf0402b-b4ee-4953-9e48-a287d5d8017c"
+  frameborder="0"
+  webkitallowfullscreen
+  mozallowfullscreen
+  allowfullscreen
+></iframe>
+
+Streamline the off-ramping process by creating a Spending Limit. For example, you can specify that your CTO can transfer USDC 1,000 per week to the off-ramp address without the standard Squads-required multisig approval.
+
+## Transfer types
+
+Sphere supports Wire, ACH, and SEPA transfers for both USD and EUR bank accounts.
+
+Currently, Sphere only supports USD and EUR bank accounts—regardless in which jurisdiction the issuing bank is located in. This applies to e.g. multi-currency accounts (e.g. Wise/Revolut), and e.g. an Indonesian with a USD account.
+
+## Fees
+
+### On-ramp
+
+1. Bank fees for sending Wire, ACH, or SEPA
+2. 0.1% conversion fee (USD to USDC) and (EUR to USDC)
+3. Solana network fee for sending funds to a Sphere-generated wallet address
+
+### Off-Ramp
+
+1. Solana network fee for sending funds to a Sphere-generated wallet address
+2. 0.1% conversion fee (USDC to USD) and (USDC to EUR)
+3. Bank fees for receiving Wire, ACH, or SEPA
+
+## Jurisdictions
+
+Sphere supports transactions to any USD and EUR bank account that is located in a non-high-risk country, according to OFAC/FATF.
+
+<Info>
+  Unsupported countries/regions are listed
+  [here](https://intercom.help/spherepay/en/articles/9516473-which-countries-can-i-use-sphere-from).
+</Info>
